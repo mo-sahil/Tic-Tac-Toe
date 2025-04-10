@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -20,8 +21,6 @@ body {
     background-color: #dbdbdb;
     border-radius: 40px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    margin-top: 150px;
-    margin-bottom: 30px;
 }
 
 h1 {
@@ -101,7 +100,6 @@ h1 {
         font-size: 1.5rem;
     }
     .result-overlay{
-        top: 220px;
-        height: 350px;
+        top: 130px;
     }
 }
